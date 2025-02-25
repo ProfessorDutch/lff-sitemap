@@ -1,0 +1,1 @@
+export { richTextOptions } from './richTextOptions';

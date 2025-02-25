@@ -1,0 +1,1 @@
+export const HERO_BUTTON_TEXT = 'Get Started Now';

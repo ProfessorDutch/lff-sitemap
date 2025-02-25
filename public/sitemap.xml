@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://legalfeefinder.com/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  <url>
+    <loc>https://legalfeefinder.com/demo</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  <url>
+    <loc>https://legalfeefinder.com/privacy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  <url>
+    <loc>https://legalfeefinder.com/terms</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  <url>
+    <loc>https://legalfeefinder.com/new-york-breathalyzer-refusal-payment-plans</loc>
+    <changefreq>quarterly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  <!-- Include all your city pages here -->
+</urlset>

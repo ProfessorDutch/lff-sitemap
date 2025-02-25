@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2563eb;
+  --primary-rgb: 37, 99, 235;
+  --primary-dark: #1d4ed8;
+  --secondary: #0f172a;
+  --accent: #3b82f6;
+  --success: #059669;
+  --warning: #d97706;
+  --danger: #dc2626;
+  --light: #f8fafc;
+  --dark: #020617;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-gray-800 bg-gray-50;
+  }
+
+  /* Ensure background gradients work in all browsers */
+  .bg-gradient {
+    background-image: linear-gradient(to bottom right, var(--secondary), var(--primary-dark), var(--secondary));
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-6 md:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .section-container {
+    @apply container max-w-[1400px];
+  }
+
+  .btn-primary {
+    @apply bg-[--primary] hover:bg-[--primary-dark] text-white font-semibold py-3 px-8 rounded-lg 
+           transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl
+           flex items-center justify-center gap-2;
+  }
+
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-[--primary] border-2 border-[--primary] font-semibold 
+           py-3 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 
+           shadow-lg hover:shadow-xl flex items-center justify-center gap-2;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
+  }
+
+  .inherit-color {
+    @apply text-current;
+  }
+}
